@@ -17,7 +17,7 @@ namespace GameService.Tests
             _developerRepositoryMock = new Mock<IDeveloperRepository>();
         }
 
-        private List<Game> games = new List<Game>
+        private List<Game> _games = new List<Game>
         {
             new Game()
             {
